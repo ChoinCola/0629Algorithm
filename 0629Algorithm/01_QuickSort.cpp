@@ -30,7 +30,7 @@ void QuickSort(int* arr, int start, int end)
 		while(arr[left] < arr[pivot] && left <= end)
 			left++; // 작으면 이동시킨다.
 		while (arr[right] > arr[pivot] && right >= start)
-			right--; // 작으면 이동시킨다.
+			right--; // 크면 이동시킨다.
 
 		if(left >= right) break;
 
