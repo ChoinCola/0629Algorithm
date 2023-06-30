@@ -35,11 +35,16 @@ auto QuickSort(int arr[], int start, int end) -> void
 		while (arr[end] > Pivot && end >= start)
 			end--; // 크면 이동시킨다.
 
-		if (start >= end) break;
-
-		SWAP(arr[start], arr[end]);
+		//if (start >= end) break;
+		if (start <= end)
+		{
+			SWAP(arr[start], arr[end]);
+			start++;
+			end--;
+		}
+		
 	}
-	SWAP(Pivot, arr[end]);
+	//SWAP(Pivot, arr[end]);
 
 	QuickSort(arr, cstart, Pivot-1);
 	QuickSort(arr, Pivot+1, cend );
