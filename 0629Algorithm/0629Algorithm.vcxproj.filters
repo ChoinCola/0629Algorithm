@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="03_Depth_first_search.cpp">
+    <ClCompile Include="02_BruteForce.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
