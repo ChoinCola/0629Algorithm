@@ -74,8 +74,8 @@ auto BruteForce(int arr[], int start, int end, int count = 0) -> bool
 
 	int Asum = Array_Sum(result, 8); // 현재 결과에 있는 모든 데이터를 더해준다.
 
-	if (Asum == 100 && count == 8) { // 배열이 가득차있고, 모든 데이터를 더했을 때 100이 나올경우,
-		PRINT(result, 8, "RESULT : "); return 1; // 결과를 출력해주고 1을 반환한다.
+	if (Asum == 100) { // 모든 데이터를 더했을 때 100이 나올경우,
+		PRINT(result, 8, "RESULT : "); exit(0); // 결과를 출력해주고 1을 반환한다.
 	}
 
 	if (start >= end) { return 0; } 
@@ -121,7 +121,7 @@ void QuickSort(int* arr, int start, int end)
 int main()
 {
 	int arr[] = { 7, 15, 21, 8, 14, 25, 10, 11, 17, 5 };
-	QuickSort(arr, 0, 9);
+	//QuickSort(arr, 0, 9);
 	BruteForce(arr,0, 9);
 	return 0;
 }
