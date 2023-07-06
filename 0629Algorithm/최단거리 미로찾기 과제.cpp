@@ -103,6 +103,7 @@ public:
 		return;
 	}
 	void APrint_Map() override {
+
 		std::cout << "¸Ê " << std::endl;
 		for (int i = 0; i < Length; i++) {
 			for (int j = 0; j < Width; j++) {

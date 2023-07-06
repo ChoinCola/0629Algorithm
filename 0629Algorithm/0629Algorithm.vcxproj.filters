@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="최단거리 미로찾기 과제.cpp">
+    <ClCompile Include="06_stack_by_linkedlist.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="05_stack.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

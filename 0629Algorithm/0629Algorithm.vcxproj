@@ -19,7 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="최단거리 미로찾기 과제.cpp" />
+    <ClCompile Include="05_stack.cpp" />
+    <ClCompile Include="06_stack_by_linkedlist.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
